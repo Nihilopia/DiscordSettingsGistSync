@@ -12,5 +12,7 @@ namespace DiscordSettingsGistSync
         internal static string ServiceName = "DiscordSettingsGistSync";
         internal static string ServiceDisplayName = "Discord Settings to GitHub Gist synchronizer service";
         public static string ServiceDescription = "Synchs your discord settings with your GitHub Gists so you can access them anytime";
+
+        public static string LocalStorageLocation;
     }
 }
